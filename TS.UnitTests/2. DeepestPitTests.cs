@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using TS.Domain.Services;
 
 namespace TS.UnitTests
 {
@@ -9,10 +10,15 @@ namespace TS.UnitTests
         [TestMethod]
         public void Q2_BasicNominalTest()
         {
-            var points = new[] { 0, 1, 3, -2, 0, 1, -3, 2, 3 };
-            var result = 2;  //DeepestPitAnswer.Solution(points);
+            // Arrange
+            DeepestPit deepestPit = new DeepestPit();
 
-            Assert.AreEqual(4, result);
+            // Act
+            int[] inputArray = { 0, 1, 3, -2, 0, -3, 2, 3 };
+            var outcome = deepestPit.GetPitDepth(inputArray);
+
+            // Assert
+            Assert.AreEqual(2, outcome);
         }
     }
 }
