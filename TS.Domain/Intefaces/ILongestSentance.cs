@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TS.TechnicalTest
+namespace TS.Domain
 {
-    class DeepestPitAnswer
+    public interface ILongestSentance
     {
-        static void Solution(string[] args)
-        {
-
-        }
+        int GetLongestSentance(string s);
     }
 }

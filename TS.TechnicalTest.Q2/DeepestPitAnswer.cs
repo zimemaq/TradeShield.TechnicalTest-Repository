@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TS.TechnicalTest
+namespace TS.TechnicalTest.Q2
 {
     class DeepestPitAnswer
     {
-        static void Solution(string[] args)
+        static void Main(string[] args)
         {
-
         }
     }
 }

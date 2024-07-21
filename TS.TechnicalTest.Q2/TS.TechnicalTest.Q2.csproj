@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8617CC42-D5E2-4E87-9C05-ABE9551F398E}</ProjectGuid>
+    <ProjectGuid>{1C999D90-87A1-4D16-B2E7-D10731B7F12F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TS.TechnicalTest</RootNamespace>
-    <AssemblyName>TS.TechnicalTest</AssemblyName>
+    <RootNamespace>TS.TechnicalTest.Q2</RootNamespace>
+    <AssemblyName>TS.TechnicalTest.Q2</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LongestSentanceAnswer.cs" />
     <Compile Include="DeepestPitAnswer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\TS.Domain\TS.Domain.csproj">
-      <Project>{0b31a603-bba1-493b-8ced-d51ffe176eaf}</Project>
-      <Name>TS.Domain</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
