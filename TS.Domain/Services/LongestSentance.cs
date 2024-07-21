@@ -13,8 +13,7 @@ namespace TS.Domain
         {
             int count = 0;
             string[] sentences = s.Split(new char[] { '!', '.', '?'}, StringSplitOptions.RemoveEmptyEntries);
-            var longestSentence = sentences.Where(sentence => sentence.Trim().Length == sentences.Max(m => m.Trim().Length)).First();
-
+            
             for(int i = 0; i < sentences.Length; i++)
             {
                 string temporary = sentences[i].Trim();

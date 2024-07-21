@@ -14,7 +14,7 @@ namespace TS.UnitTests
             DeepestPit deepestPit = new DeepestPit();
 
             // Act
-            int[] inputArray = { 0, 1, 3, -2, 0, -3, 2, 3 };
+            int[] inputArray = { 1, 2, 3, 1, 2, 3, 1, 2, 3 };
             var outcome = deepestPit.GetPitDepth(inputArray);
 
             // Assert
