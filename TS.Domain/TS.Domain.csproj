@@ -44,6 +44,7 @@
     <Compile Include="Intefaces\IDeepestPit.cs" />
     <Compile Include="Intefaces\ILongestSentance.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\DeepestPit.cs" />
     <Compile Include="Services\LongestSentance.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -8,6 +8,6 @@ namespace TS.Domain
 {
     public interface IDeepestPit
     {
-        
+        int GetPitDepth(int[] points);
     }
 }
