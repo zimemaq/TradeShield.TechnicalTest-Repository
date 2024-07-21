@@ -10,6 +10,7 @@ namespace TS.TechnicalTest
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

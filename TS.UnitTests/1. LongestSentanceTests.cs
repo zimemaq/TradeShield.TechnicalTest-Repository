@@ -10,7 +10,7 @@ namespace TS.UnitTests
         public void Q1_BasicNominalTest()
         {
             var input = $"We test coders. Give us a try";
-            var outcome = 4; //LongestSentanceAnswer.Solution(input);
+            var outcome = 4;  //LongestSentanceAnswer.Solution(input);
 
             Assert.AreEqual(4, outcome);
         }
