@@ -13,10 +13,6 @@ namespace TS.Domain.Services
             int arrayLength = points.Length;
             int maximumDepth = -1;
 
-            //int P = 0;
-            //int Q = -1;
-            //int R = -1;
-
             // Try solution with nested loops. This might introduce performance issues on large arrays
             for (int P = 0; P < arrayLength - 2; P++)
             {

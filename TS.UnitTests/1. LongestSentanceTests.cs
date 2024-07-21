@@ -11,6 +11,7 @@ namespace TS.UnitTests
         public void Q1_BasicNominalTest()
         {
             // Arrange
+            // Dependancy Injection and Mocking would be greate.
             LongestSentance longestSentance = new LongestSentance();
 
             // Act

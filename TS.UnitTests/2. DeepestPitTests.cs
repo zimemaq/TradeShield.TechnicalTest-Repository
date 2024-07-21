@@ -11,6 +11,7 @@ namespace TS.UnitTests
         public void Q2_BasicNominalTest()
         {
             // Arrange
+            // Dependancy Injection and Mocking would be greate.
             DeepestPit deepestPit = new DeepestPit();
 
             // Act

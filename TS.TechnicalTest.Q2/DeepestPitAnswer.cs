@@ -11,6 +11,7 @@ namespace TS.TechnicalTest.Q2
     {
         static void Main(string[] args)
         {
+            // Dependancy Injection and Mocking would be greate.
             DeepestPit deepestPit = new DeepestPit();
             int[] array = { 0, 1, 3, -2, 0, -3, 2, 3 };
 

@@ -11,7 +11,9 @@ namespace TS.TechnicalTest
     {
         static void Main(string[] args)
         {
+            // Dependancy Injection and Mocking would be greate.
             LongestSentance longestSentance = new LongestSentance();
+
             var input = $"We test coders. Give us a try";
             
             Console.Write(longestSentance.GetLongestSentance(input));
